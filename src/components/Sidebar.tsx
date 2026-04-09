@@ -29,7 +29,7 @@ export default function Sidebar({ active, expanded, setExpanded, scrollTo }: Sid
             {/* Logo */}
             <div className="flex flex-col items-center justify-center py-8">
                 <span className="inline-block transform rotate-24">
-                    <img src={Favicon} width={40} alt="Favicon" />
+                    <img src={Favicon} width={190} alt="Favicon" />
                 </span>
                 <span
                     className={`font-Poppins font-semibold mt-3 text-md whitespace-nowrap overflow-hidden transition-all duration-300 lg:opacity-100 lg:max-h-6 ${expanded ? 'opacity-100 max-h-6' : 'opacity-0 max-h-0'}`}
