@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Poller+One&display=swap');
+
+
+@font-face {
+  font-family: 'StudyNight';
+  src: url('/fonts/study_night.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ThisAppeal';
+  src: url('/fonts/anja.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-bagel: "Bagel Fat One", cursive;
+  --font-pacifico: 'Pacifico', cursive;
+  --font-studynight: 'StudyNight';
+  --font-thisappeal:  "Bagel Fat One";
+}
