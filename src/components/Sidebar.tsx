@@ -7,7 +7,7 @@ const navItems = [
     { icon: House, label: "Home", id: "home" },
     { icon: User, label: "About", id: "about" },
     { icon: FolderOpen, label: "Projects", id: "projects" },
-    { icon: Zap, label: "Stack", id: "stack" },
+    { icon: Zap, label: "Skill", id: "skill" },
     { icon: Mail, label: "Contact", id: "contact" },
 ];
 
